@@ -26,6 +26,7 @@ from flatlib.geopos import GeoPos
 from flatlib.chart import Chart
 from flatlib import const
 
+
 def fetch_sentiment():
     current_date = Datetime("2023/02/21", "16:45", "+00:00")
     current_location = GeoPos(28.834968, 78.751423)

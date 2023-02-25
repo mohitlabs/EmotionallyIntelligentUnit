@@ -23,32 +23,36 @@
 from setuptools import setup, find_packages
 
 setup(
-    #Project
+    # Project
     name="EmotionallyIntelligentUnit",
     version="0.1.0-alpha",
 
-    #Sources
+    # Sources
     packages=find_packages(),
-    
-    #Dependencies
+
+    # Dependencies
     install_requires=["flatlib"],
 
-    #Metadata
+    # Metadata
     description="Vedic Astrology based Artificial Emotional Intelligence",
     long_description="Emotionally Intelligent Unit is a vedic astrology based artificial sentiment synthesis library",
     url="https://github.com/mohitlabs/EmotionallyIntelligentUnit",
-    keywords=["EmotionallyIntelligentUnit", "EIU", "Sentiment Synthesis", "Artificial Emotional Intelligence"],
+    keywords=["EmotionallyIntelligentUnit", "EIU",
+              "Sentiment Synthesis", "Artificial Emotional Intelligence"],
     license="MIT",
 
-    #Authoring
+    # Authoring
     author="MohitLabs",
     author_email="mohitsingh5.ms@gmail.com",
 
     classifiers=[
-        "Development Status :: 1 - Alpha",
+        "Development Status :: 3 - Alpha",
+        "License :: OSI Approved :: MIT License",
         "Intended Audience :: Developers",
         "Intended Audience :: Science/Research",
-        "Programming Languages :: Python :: 3",
+        "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
+        "Environment :: Other Environment",
+        "Topic :: Software Development :: Libraries :: Python Modules"
     ]
 )
